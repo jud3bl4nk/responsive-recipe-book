@@ -11,7 +11,14 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-font-family: futura-pt, sans-serif;
+  font-family: futura-pt, sans-serif;
+}
+
+.logo {
+  height: 60px;
+  width: 80px;
+  margin: 0;
+  display: inline-block;
 }
 
 .clicker {
@@ -32,7 +39,7 @@ font-family: futura-pt, sans-serif;
 
 .btn:hover {
   background-color: #e5e5e5;
-  border-color: #999999;
+  border-color: #999;
   color: #000;
 }
 
@@ -46,22 +53,18 @@ a {
 }
 
 .name {
-font-family: gastromond, sans-serif;
-font-weight: normal;
-font-style: normal;
+  font-family: gastromond, sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .name-sub {
-  position: absolute;
-  left: 23em;
-}
-
-.intro {
-
+  top: 3.7em;
+  left: 10em;
 }
 
 .card-img {
-  height: 100px
+  height: 100px;
 }
 
 .hover-box {
@@ -105,5 +108,3 @@ font-style: normal;
   font-weight: normal;
   font-style: normal;
 }
-
-@media only screen and (min-width: 60em) {
