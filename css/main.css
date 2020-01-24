@@ -133,7 +133,7 @@ a {
 
 @media only screen and (min-width: 60em) {
   .name {
-    font-size: 1.7926rem;
+    font-size: 1.9127rem;
     line-height: 2.6rem;
   }
   .main-deck {
@@ -145,8 +145,8 @@ a {
 
 @media only screen and (min-width: 90em) {
   .name {
-    font-size: 1.9127rem;
-    line-height: 2.6rem;
+    font-size: 2.0408rem;
+    line-height: 2.925rem;
   }
   .main-deck {
     top: 17%;
