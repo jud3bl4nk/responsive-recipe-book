@@ -52,16 +52,18 @@ a {
   margin-top: 5em;
 }
 
+.main-title {
+  top: 10%;
+  left: 30%;
+}
+
+
 .name {
   font-family: gastromond, sans-serif;
   font-weight: normal;
   font-style: normal;
 }
 
-.name-sub {
-  top: 3.7em;
-  left: 10em;
-}
 
 .card-img {
   height: 100px;
@@ -107,4 +109,47 @@ a {
   font-family: gastromond, sans-serif;
   font-weight: normal;
   font-style: normal;
+}
+
+@media only screen and (min-width: 25em) {
+  .main-deck {
+  top: 20%;
+    left: 30%;
+  }
+}
+
+
+@media only screen and (min-width: 38em) {
+  .name {
+    font-size: 1.5745rem;
+    line-height: 2.275rem;
+  }
+  .main-deck {
+  top: 17%;
+    left: 30%;
+  }
+}
+
+
+@media only screen and (min-width: 60em) {
+  .name {
+    font-size: 1.7926rem;
+    line-height: 2.6rem;
+  }
+  .main-deck {
+    top: 17%;
+    left: 30%;
+  }
+}
+
+
+@media only screen and (min-width: 90em) {
+  .name {
+    font-size: 1.9127rem;
+    line-height: 2.6rem;
+  }
+  .main-deck {
+    top: 17%;
+    left: 30%;
+  }
 }
