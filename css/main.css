@@ -111,6 +111,10 @@ a {
   font-style: normal;
 }
 
+.recipe-holder {
+  margin: 0px 36px;
+}
+
 @media only screen and (min-width: 25em) {
 
   .main-deck {
@@ -128,8 +132,9 @@ a {
   }
 
   .main-deck {
+  font-size: .8rem;
   top: 17%;
-    left: 30%;
+  left: 30%;
   }
 
 }
@@ -137,11 +142,12 @@ a {
 @media only screen and (min-width: 60em) {
 
   .name {
-    font-size: 1.9127rem;
+    font-size: 2.6rem;
     line-height: 2.6rem;
   }
 
   .main-deck {
+    font-size: 1.2rem;
     top: 17%;
     left: 30%;
   }
@@ -151,11 +157,12 @@ a {
 @media only screen and (min-width: 90em) {
 
   .name {
-    font-size: 2.0408rem;
+    font-size: 3.41rem;
     line-height: 2.925rem;
   }
 
   .main-deck {
+    font-size: 1.4238rem;
     top: 17%;
     left: 30%;
   }
